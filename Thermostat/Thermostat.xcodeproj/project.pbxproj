@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036798BD1DD228F90003D967 /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036798BC1DD228F90003D967 /* PreferenceManager.swift */; };
-		03E336EF1DB1D58300FFB960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E336EE1DB1D58300FFB960 /* AppDelegate.swift */; };
-		03E336F11DB1D58300FFB960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E336F01DB1D58300FFB960 /* Assets.xcassets */; };
-		03E336F41DB1D58300FFB960 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E336F21DB1D58300FFB960 /* MainMenu.xib */; };
-		03E336FC1DB1D5E500FFB960 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E336FB1DB1D5E500FFB960 /* MainWindowController.xib */; };
-		03E336FE1DB1D6F900FFB960 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E336FD1DB1D6F900FFB960 /* MainWindowController.swift */; };
+		0398E8051DB9159500B17A2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398E8041DB9159500B17A2A /* AppDelegate.swift */; };
+		0398E8071DB9159500B17A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0398E8061DB9159500B17A2A /* Assets.xcassets */; };
+		0398E80A1DB9159500B17A2A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0398E8081DB9159500B17A2A /* MainMenu.xib */; };
+		0398E8131DB915BC00B17A2A /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398E8111DB915BC00B17A2A /* MainWindowController.swift */; };
+		0398E8141DB915BC00B17A2A /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0398E8121DB915BC00B17A2A /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		036798BC1DD228F90003D967 /* PreferenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
-		03E336EB1DB1D58300FFB960 /* SpeakLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E336EE1DB1D58300FFB960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03E336F01DB1D58300FFB960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03E336F31DB1D58300FFB960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		03E336F51DB1D58300FFB960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03E336FB1DB1D5E500FFB960 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
-		03E336FD1DB1D6F900FFB960 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		0398E8011DB9159500B17A2A /* Thermostat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermostat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0398E8041DB9159500B17A2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0398E8061DB9159500B17A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0398E8091DB9159500B17A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0398E80B1DB9159500B17A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0398E8111DB915BC00B17A2A /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		0398E8121DB915BC00B17A2A /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03E336E81DB1D58300FFB960 /* Frameworks */ = {
+		0398E7FE1DB9159500B17A2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03E336E21DB1D58300FFB960 = {
+		0398E7F81DB9159500B17A2A = {
 			isa = PBXGroup;
 			children = (
-				03E336ED1DB1D58300FFB960 /* SpeakLine */,
-				03E336EC1DB1D58300FFB960 /* Products */,
+				0398E8031DB9159500B17A2A /* Thermostat */,
+				0398E8021DB9159500B17A2A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03E336EC1DB1D58300FFB960 /* Products */ = {
+		0398E8021DB9159500B17A2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03E336EB1DB1D58300FFB960 /* SpeakLine.app */,
+				0398E8011DB9159500B17A2A /* Thermostat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03E336ED1DB1D58300FFB960 /* SpeakLine */ = {
+		0398E8031DB9159500B17A2A /* Thermostat */ = {
 			isa = PBXGroup;
 			children = (
-				03E336EE1DB1D58300FFB960 /* AppDelegate.swift */,
-				03E336F01DB1D58300FFB960 /* Assets.xcassets */,
-				03E336F21DB1D58300FFB960 /* MainMenu.xib */,
-				03E336F51DB1D58300FFB960 /* Info.plist */,
-				03E336FD1DB1D6F900FFB960 /* MainWindowController.swift */,
-				03E336FB1DB1D5E500FFB960 /* MainWindowController.xib */,
-				036798BC1DD228F90003D967 /* PreferenceManager.swift */,
+				0398E8041DB9159500B17A2A /* AppDelegate.swift */,
+				0398E8061DB9159500B17A2A /* Assets.xcassets */,
+				0398E8081DB9159500B17A2A /* MainMenu.xib */,
+				0398E80B1DB9159500B17A2A /* Info.plist */,
+				0398E8111DB915BC00B17A2A /* MainWindowController.swift */,
+				0398E8121DB915BC00B17A2A /* MainWindowController.xib */,
 			);
-			path = SpeakLine;
+			path = Thermostat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03E336EA1DB1D58300FFB960 /* SpeakLine */ = {
+		0398E8001DB9159500B17A2A /* Thermostat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03E336F81DB1D58300FFB960 /* Build configuration list for PBXNativeTarget "SpeakLine" */;
+			buildConfigurationList = 0398E80E1DB9159500B17A2A /* Build configuration list for PBXNativeTarget "Thermostat" */;
 			buildPhases = (
-				03E336E71DB1D58300FFB960 /* Sources */,
-				03E336E81DB1D58300FFB960 /* Frameworks */,
-				03E336E91DB1D58300FFB960 /* Resources */,
+				0398E7FD1DB9159500B17A2A /* Sources */,
+				0398E7FE1DB9159500B17A2A /* Frameworks */,
+				0398E7FF1DB9159500B17A2A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpeakLine;
-			productName = SpeakLine;
-			productReference = 03E336EB1DB1D58300FFB960 /* SpeakLine.app */;
+			name = Thermostat;
+			productName = Thermostat;
+			productReference = 0398E8011DB9159500B17A2A /* Thermostat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03E336E31DB1D58300FFB960 /* Project object */ = {
+		0398E7F91DB9159500B17A2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "马志彬";
 				TargetAttributes = {
-					03E336EA1DB1D58300FFB960 = {
+					0398E8001DB9159500B17A2A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 95Q5B4HU44;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 03E336E61DB1D58300FFB960 /* Build configuration list for PBXProject "SpeakLine" */;
+			buildConfigurationList = 0398E7FC1DB9159500B17A2A /* Build configuration list for PBXProject "Thermostat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,47 +109,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 03E336E21DB1D58300FFB960;
-			productRefGroup = 03E336EC1DB1D58300FFB960 /* Products */;
+			mainGroup = 0398E7F81DB9159500B17A2A;
+			productRefGroup = 0398E8021DB9159500B17A2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03E336EA1DB1D58300FFB960 /* SpeakLine */,
+				0398E8001DB9159500B17A2A /* Thermostat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03E336E91DB1D58300FFB960 /* Resources */ = {
+		0398E7FF1DB9159500B17A2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E336F11DB1D58300FFB960 /* Assets.xcassets in Resources */,
-				03E336FC1DB1D5E500FFB960 /* MainWindowController.xib in Resources */,
-				03E336F41DB1D58300FFB960 /* MainMenu.xib in Resources */,
+				0398E8071DB9159500B17A2A /* Assets.xcassets in Resources */,
+				0398E8141DB915BC00B17A2A /* MainWindowController.xib in Resources */,
+				0398E80A1DB9159500B17A2A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03E336E71DB1D58300FFB960 /* Sources */ = {
+		0398E7FD1DB9159500B17A2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E336FE1DB1D6F900FFB960 /* MainWindowController.swift in Sources */,
-				036798BD1DD228F90003D967 /* PreferenceManager.swift in Sources */,
-				03E336EF1DB1D58300FFB960 /* AppDelegate.swift in Sources */,
+				0398E8131DB915BC00B17A2A /* MainWindowController.swift in Sources */,
+				0398E8051DB9159500B17A2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03E336F21DB1D58300FFB960 /* MainMenu.xib */ = {
+		0398E8081DB9159500B17A2A /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03E336F31DB1D58300FFB960 /* Base */,
+				0398E8091DB9159500B17A2A /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -160,7 +156,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03E336F61DB1D58300FFB960 /* Debug */ = {
+		0398E80C1DB9159500B17A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		03E336F71DB1D58300FFB960 /* Release */ = {
+		0398E80D1DB9159500B17A2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,29 +246,29 @@
 			};
 			name = Release;
 		};
-		03E336F91DB1D58300FFB960 /* Debug */ = {
+		0398E80F1DB9159500B17A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 95Q5B4HU44;
-				INFOPLIST_FILE = SpeakLine/Info.plist;
+				INFOPLIST_FILE = Thermostat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tobyn.SpeakLine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobyn.Thermostat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		03E336FA1DB1D58300FFB960 /* Release */ = {
+		0398E8101DB9159500B17A2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 95Q5B4HU44;
-				INFOPLIST_FILE = SpeakLine/Info.plist;
+				INFOPLIST_FILE = Thermostat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tobyn.SpeakLine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobyn.Thermostat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -281,25 +277,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03E336E61DB1D58300FFB960 /* Build configuration list for PBXProject "SpeakLine" */ = {
+		0398E7FC1DB9159500B17A2A /* Build configuration list for PBXProject "Thermostat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03E336F61DB1D58300FFB960 /* Debug */,
-				03E336F71DB1D58300FFB960 /* Release */,
+				0398E80C1DB9159500B17A2A /* Debug */,
+				0398E80D1DB9159500B17A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03E336F81DB1D58300FFB960 /* Build configuration list for PBXNativeTarget "SpeakLine" */ = {
+		0398E80E1DB9159500B17A2A /* Build configuration list for PBXNativeTarget "Thermostat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03E336F91DB1D58300FFB960 /* Debug */,
-				03E336FA1DB1D58300FFB960 /* Release */,
+				0398E80F1DB9159500B17A2A /* Debug */,
+				0398E8101DB9159500B17A2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03E336E31DB1D58300FFB960 /* Project object */;
+	rootObject = 0398E7F91DB9159500B17A2A /* Project object */;
 }
